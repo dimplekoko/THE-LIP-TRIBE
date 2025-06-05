@@ -8,28 +8,36 @@
 </head>
 <body>
   <header>
-    <h1>LipLove</h1>
-    <button id="cart-btn">🛒 Cart (<span id="cart-count">0</span>)</button>
+   <div class="logo">💄 TheLipTribe</div>
+   <nav>
+     <a href="#products">Products</a>
+     <a href="#about">About</a>
+     <a href="#contact">Contact</a>
+    </nav>
   </header>
 
-  <main>
-    <section class="products" id="product-list">
-      <!-- Products will load here dynamically -->
-    </section>
-  </main>
+  <section class="hero">
+    <h1>Elevate Your Glow</h1>
+    <p>Discover lip products that love you back.</p>
+    <a href="#products" class="cta">Shop Now</a>
+  </section>
 
-  <div id="cart-popup" class="cart hidden">
-    <h2>Your Cart</h2>
-    <ul id="cart-items"></ul>
-    <p>Total: KSH <span id="cart-total">0</span></p>
-    <button onclick="checkout()">Checkout</button>
-    <button onclick="closeCart()">Close</button>
-  </div>
+
+  <section id="products" class="products-section">
+    <h2>Our Best Sellers</h2>
+    <div class="products-list" id="products-list"></div>
+  </section>
+
 
   <footer>
-    <p>© 2025 LipLove | For soft, beautiful lips</p>
+    <p>&copy: 2025 TheLipTribe. All rights reserved.</p>
+    <P> Follow us : Instagram | Tiktok | Email</P>
   </footer>
 
   <script src="script.js"></script>
 </body>
 </html>
+
+   
+
+  
